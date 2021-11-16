@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  /* z-index: 9; */
+  align-items: center;
+  flex-direction: column;  
+  background: #dd9105;
+  color: #FFFFFF;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-evenly;
+  height: 400px;
+  /* background-color: #00238c; */
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.nametext {
+  font-weight: 300;
+}
+.nametext span {
+  font-weight: 600;
+}

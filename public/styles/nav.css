@@ -1,0 +1,24 @@
+nav {
+  display:flex;
+  font-family: bungee, sans-serif;
+  font-size: xx-large;
+  height: 120px;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  padding-left:1.5em;
+  padding-right: 1.5em;
+  justify-content: space-between;
+  align-items: center;
+  /* z-index: 10; */
+}
+#navtop {
+  display:flex;
+  flex-direction: column;
+  font-size: x-large;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+i {
+  color: red;
+}
