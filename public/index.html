@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/main.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/tweets.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -43,7 +44,7 @@
     </nav>
 
     <!-- Avatar -->
-    <header>
+    <header class="avatar">
       <div>
         <img src="/images/profile-hex.png"> 
       </div>
@@ -68,7 +69,29 @@
           </div>
         </form>
       </section>
-      
+
+      <!-- Tweet Posts -->
+      <article class="tweet">
+        <header>
+          <p><img src=https://imgur.com/nlhLi3I>Rhoda Jacobs</p>
+          <p>@MrsJacobs</p>
+        </header>
+
+        <div class="ttext">
+          <p>Hello World!</p>
+        </div>
+
+        <footer>
+          <p>10 Days Ago</p>
+          <div class="icons">
+            <i class="fa-solid fa-flag"></i>
+            <i class="fa-solid fa-retweet"></i>
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </footer>
+      </article>
+
     </main>
+    <script src='scripts/composer-char-counter.js'></script>
   </body>
 </html>
