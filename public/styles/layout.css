@@ -19,7 +19,7 @@ body {
   background-color: #f4f1ec;
   font-size: 24px;
   /* is putting font family here okay instructions say ignore first 2 selectors*/
-  font-family: sourcesanspro, sans-serif; 
+  font-family: "source sans pro", sans-serif; 
 }
 
 /*
@@ -34,23 +34,4 @@ main {
   flex-direction: column;
   align-content: center;
   justify-content: center;
-}
-.greetingtext{
-  height: 1.5em;
-  font-size: 1em;
-  border-bottom: 3px solid rgb(134, 128, 128);
-}
-.container div {
-  display: flex;
-  font-family: bungee;
-  justify-content: space-between;
-  align-items: center;
-}
-.inputdesign {
-  background-color: #4056A1;
-  color: #FFFFFF;
-  padding-top:0.1em;
-  padding-bottom: 0.1em;
-  padding-left: 0.25em;
-  padding-right: 0.25em;
 }
