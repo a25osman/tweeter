@@ -1,12 +1,13 @@
 .avatar {
   display: flex;
-  /* z-index: 9; */
+  z-index: 9;
   align-items: center;
   flex-direction: column;  
   background: #dd9105;
   color: #FFFFFF;
   justify-content: space-evenly;
   height: 400px;
+  margin-top: 120px;
   background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
 }
 .nametext {

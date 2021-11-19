@@ -11,8 +11,5 @@ $(document).ready(function() {
       $characterCounter.removeClass('red');
     }
     $characterCounter.html(remaining);
-
-    //
-
   });
 });

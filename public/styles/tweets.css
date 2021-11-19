@@ -2,8 +2,7 @@ article.tweet{
   border:3px solid rgb(134, 128, 128);
   padding-right: 20px;
   padding-left: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
 }
 article.tweet:hover{
   box-shadow: 5px 5px lightgrey;
@@ -13,11 +12,17 @@ article.tweet header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 0.75em;
+}
+article.tweet header p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 article.tweet img {
   padding-right: 0.5em;
 }
-article.tweet div.ttext{
+article.tweet div.tweet-content{
   border-bottom: 3px solid rgb(134, 128, 128);
   color: solid black;
   font-size: smaller;
@@ -36,6 +41,17 @@ article.tweet footer{
 .fa-solid:hover{
   color:orange;
 }
+article.tweet footer{
+  height:fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 article.tweet footer p{
   font-size: small;
+}
+#tweet-text{
+  height: 1.5em;
+}
+.tweet-content{
+  word-break: break-all;
 }

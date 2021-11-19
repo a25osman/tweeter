@@ -25,15 +25,46 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
 */
-/* main {
-  width: 90%;
-  margin:auto;
-} */
-.container {
+
+/* body container*/
+.container { 
   width: 90%;
   margin:auto;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
+}
+
+/* over 140 char count error message */
+.errmsg {
+  display: flex;
+  display: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid red;
+  height: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-top: 0.5em;
+  color: red;
+}
+
+/* Desktop Version */
+@media only screen and (min-width: 1024px) {
+  .desktops {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+  }
+  .avatar{
+    width: 40%;
+    margin-right: 5%;
+  }
+  .new-tweet{
+    margin-top: 3em;
+  }
+  .errmsg{
+    margin-top: 120px;
+  }
 }
