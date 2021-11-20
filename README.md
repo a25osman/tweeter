@@ -5,11 +5,11 @@ Tweeter is a 1-page AJAX-based Twitter clone, built using jQuery, HTML5 and CSS.
 
 ## Final Product
 
-!["Screenshot of tweeter desktop view with over word limit"]()
+!["Screenshot of tweeter desktop view with over word limit"](https://github.com/a25osman/tweeter/blob/master/docs/tweeter-error.png?raw=true)
 
-!["screenshot of tweeter mobile view homepage"]()
+!["screenshot of tweeter mobile view homepage"](https://github.com/a25osman/tweeter/blob/master/docs/tweeter-mobile.png?raw=true)
 
-!["screenshot of tweeter tweets"]()
+!["screenshot of tweeter tweets"](https://github.com/a25osman/tweeter/blob/master/docs/tweeter-tweets.png?raw=true)
 
 
 ## Dependencies
